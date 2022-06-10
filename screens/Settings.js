@@ -37,19 +37,19 @@ const Settings = () => {
         title="My account" 
         backgroundColor='#fff'
         textColor="#000"
-        underlayColor="#dee2e6"
+        underlayColor="#ebebeb"
       />
       <SettingButton 
         title="My schedule" 
         backgroundColor='#fff'
         textColor="#000"
-        underlayColor="#dee2e6"
+        underlayColor="#ebebeb"
       />
       <SettingButton 
         title="Private policy" 
         backgroundColor='#fff'
         textColor="#000"
-        underlayColor="#dee2e6"
+        underlayColor="#ebebeb"
       />
       <SettingButton 
         title="Exit" 
