@@ -8,21 +8,17 @@ const Container = styled.View`
   gap: 4px;
 `;
 
-const Button = styled.TouchableHighlight`
-  justifyContent: center;
-  height: 35px;
-  width: 100%;
-  borderRadius: 8px;
-  paddingHorizontal: 24px
-`;
-
-const ButtonLabel = styled.Text`
-
-`;
-
 const SettingButton = (props) => {
-
   const { title, backgroundColor, textColor, underlayColor } = props;
+
+  const Button = styled.TouchableHighlight`
+    justifyContent: center;
+    height: 35px;
+    width: 100%;
+    borderRadius: 8px;
+    paddingHorizontal: 24px
+  `;
+
   return (
     <Button style={{ backgroundColor: backgroundColor }} underlayColor={underlayColor} onPress={() => alert('Vc clicou no botao')}>
       <Text style={{ color: textColor }}>{title}</Text>
