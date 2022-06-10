@@ -10,7 +10,6 @@ import { StyleSheet, View, StatusBar, PermissionsAndroid } from 'react-native';
 
 import Header from './components/Header';
 import Navbar from './Navbar';
-import Home from './screens/Home';
 
 const App = () => {
 

@@ -16,7 +16,7 @@ const Navbar = () => {
     SupportUs: {
       iconName: 'cash'
     },
-    HowDonate: {
+    Tutorials: {
       iconName: 'water'
     },
     Settings: {
