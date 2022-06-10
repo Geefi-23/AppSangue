@@ -1,9 +1,9 @@
 import { Text } from 'react-native';
 
-const HowDonate = () => {
+const Tutorials = () => {
   return (
     <Text>Aqui vc vai aprender como doar</Text>
   );
 };
 
-export default HowDonate;
+export default Tutorials;

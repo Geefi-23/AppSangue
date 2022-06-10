@@ -4,7 +4,7 @@ import Icon from '@expo/vector-icons/Ionicons';
 
 import Home from './screens/Home';
 import SupportUs from './screens/SupportUs';
-import HowDonate from './screens/HowDonate';
+import Tutorials from './screens/Tutorials';
 import Settings from './screens/Settings';
 
 const Navbar = () => {
@@ -47,7 +47,7 @@ const Navbar = () => {
       >
         <Tab.Screen name="Home" options={{ title: 'Inicio' }} component={Home}/>
         <Tab.Screen name="SupportUs" options={{ title: 'Apoia-se' }} component={SupportUs}/>
-        <Tab.Screen name="HowDonate" options={{ title: 'Como doar?' }} component={HowDonate}/>
+        <Tab.Screen name="Tutorials" options={{ title: 'Tutoriais' }} component={Tutorials}/>
         <Tab.Screen name="Settings" options={{ title: 'Configurações' }} component={Settings}/>
       </Tab.Navigator>
     </NavigationContainer>
